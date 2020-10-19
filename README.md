@@ -3,7 +3,7 @@ test to apply to backend developer in valiu
 
 ## Installation
 
-Use npm i to install all the dependences
+Use ``` npm i ``` to install all the dependences
 
 ## Excecution
 
@@ -11,7 +11,7 @@ With the comand ```node index.js``` you can run the node service
 
 # APIS EXAMPLES
 
-You can see the solutions through GET type services, then, I show you the cURL of the three problems:
+You can see the solutions through POST type services, then, I show you the cURL of the three problems:
 
 ## Problem 1
 ```
@@ -39,7 +39,7 @@ curl --location --request POST 'localhost:8080/pairs' \
 Note: This problem has bugs, I couldn't complete it, but I want to send you my analysis 
 
 ```
-            curl --location --request POST 'localhost:8080/knight' \
+curl --location --request POST 'localhost:8080/knight' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "PiX": -5,  //Initial point of coordinate in x
